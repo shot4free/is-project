@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: result-app
-        image: lex-tsy/examplevotingapp_result
+        image: lextsy/examplevotingapp_result
         ports:
         - containerPort: 80
