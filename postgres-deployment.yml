@@ -30,6 +30,6 @@ spec:
             value: trust
       volumes:
       - name: db-data
-      gcePersistentDisk:
-        pdName: vote-db-data
-        fsType: ext4
+        gcePersistentDisk:
+          pdName: vote-db-data
+          fsType: ext4
